@@ -8,11 +8,11 @@
 - **supermarket add_product <supermarket_name> <product_name>**: Agregar un producto al inventario del supermercado.
 - **client add <client_name>**: Agregar un cliente al sistema.
 - **client move <client_name> <to_supermarket>**: Mover a un cliente a un supermercado específico.
-- **client pick_up <client_name> <product_name> <ins><quantity></ins>**: Permitir que un cliente recoja un producto.
+- **client pick_up <client_name> <product_name> <quantity>**: Permitir que un cliente recoja un producto.
 - **supermarket show_clients <supermarket_name>**: Mostrar la lista de clientes en el supermercado.
 - **supermarket show_products <supermarket_name>**: Mostrar la lista de productos en el supermercado.
 - **supermarket restock <supermarket_name> <product_name> <amount>**: Reabastecer un producto en el supermercado.
-- **client buy <client_name> <product_name> <ins><quantity></ins>**: Comprar un producto y agregarlo a la cesta del cliente.
+- **client buy <client_name> <product_name> <quantity>**: Comprar un producto y agregarlo a la cesta del cliente.
 - **client show_cart <client_name>**: Mostrar los productos en la cesta del cliente.
 - **client checkout <client_name>**: Preparar al cliente para pagar en caja.
 - **supermarket show_clients_in_cash <supermarket_name>**: Mostrar la lista de clientes en la caja.
@@ -22,7 +22,7 @@
 - **client check_cart <client_name> <product_name>**: Verificar si un producto está en la cesta del cliente.
 - **supermarket set_open_close <supermarket_name> <open/close>**: Abrir / Cerrar el supermercado si no hay clientes dentro.
 - **supermarket show_inventory <supermarket_name>**: Mostrar todo el inventario del supermercado.
-- **client remove_from_cart <client_name> <product_name> <ins><quantity></ins>**: Permitir que el cliente retire un producto de su cesta.
+- **client remove_from_cart <client_name> <product_name> <quantity>**: Permitir que el cliente retire un producto de su cesta.
 - **client get_in_line <client_name>**: Permitir que un cliente se ponga en la fila para pagar.
 
 
